@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "806630784909",
+    "firebase_url": "https://sweet-life-cake.firebaseio.com",
+    "project_id": "sweet-life-cake",
+    "storage_bucket": "sweet-life-cake.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806630784909:android:c59288bc12a94869ef47c4",
+        "android_client_info": {
+          "package_name": "com.sweetlifecake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806630784909-dctraidsbmu716qp1mm5i54dka0m92pn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sweetlifecake",
+            "certificate_hash": "a6af53b1b6c9603b9152fa65fe025d0d7035e7ca"
+          }
+        },
+        {
+          "client_id": "806630784909-tgc9pms99p2rnsqgvihrao7bmgi2guce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzU0R6UOpVl_0_zVKPTueB3TDN08qbqsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806630784909-tgc9pms99p2rnsqgvihrao7bmgi2guce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
