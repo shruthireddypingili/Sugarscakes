@@ -1,0 +1,295 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sweetlifecake"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:5:5-64
+13-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:5:22-62
+14
+15    <uses-feature
+15-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:6:5-85
+16        android:name="android.hardware.camera"
+16-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:6:19-57
+17        android:required="false" />
+17-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:6:58-82
+18    <uses-feature
+18-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:7:5-91
+19        android:name="android.hardware.camera.front"
+19-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:7:19-63
+20        android:required="false" />
+20-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:7:64-88
+21
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[com.facebook.flipper:flipper:0.33.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\d7dfbf6923f525cf0b24eae06dc32d9a\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
+22-->[com.facebook.flipper:flipper:0.33.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\d7dfbf6923f525cf0b24eae06dc32d9a\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[:react-native-firebase_auth] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+23-->[:react-native-firebase_auth] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- TODO(salakar) Not sure if this should be part of the package manifest or leave to users app manifest code? -->
+24-->[:react-native-firebase_auth] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+24-->[:react-native-firebase_auth] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->[:react-native-firebase_storage] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-80
+25-->[:react-native-firebase_storage] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-77
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[:react-native-firebase_storage] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-81
+26-->[:react-native-firebase_storage] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\@react-native-firebase\storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-78
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+29
+30    <application
+30-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:9:5-28:19
+31        android:name="com.sweetlifecake.MainApplication"
+31-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:10:7-38
+32        android:allowBackup="false"
+32-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:14:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\51c60a74c89e63786feb7a72e94c376c\core-1.1.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:12:7-41
+36        android:label="@string/app_name"
+36-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:11:7-39
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:13:7-52
+38        android:theme="@style/AppTheme"
+38-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:15:7-38
+39        android:usesCleartextTraffic="true" >
+39-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\debug\AndroidManifest.xml:7:18-53
+40        <activity
+40-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:16:7-26:18
+41            android:name="com.sweetlifecake.MainActivity"
+41-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:17:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+42-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:19:9-86
+43            android:label="@string/app_name"
+43-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:18:9-41
+44            android:launchMode="singleTask"
+44-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:20:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:21:9-51
+46            <intent-filter>
+46-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:22:9-25:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:23:13-65
+47-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:23:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:24:13-73
+49-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:24:23-70
+50            </intent-filter>
+51        </activity>
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+52-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:27:7-84
+52-->C:\Users\shruthi reddy pingil\Desktop\s\android\app\src\main\AndroidManifest.xml:27:17-81
+53
+54        <provider
+54-->[:react-native-image-crop-picker] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-21:20
+55            android:name="androidx.core.content.FileProvider"
+55-->[:react-native-image-crop-picker] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-62
+56            android:authorities="com.sweetlifecake.provider"
+56-->[:react-native-image-crop-picker] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-60
+57            android:exported="false"
+57-->[:react-native-image-crop-picker] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-37
+58            android:grantUriPermissions="true" >
+58-->[:react-native-image-crop-picker] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-47
+59            <meta-data
+59-->[:react-native-image-crop-picker] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:58
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->[:react-native-image-crop-picker] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
+61                android:resource="@xml/provider_paths" />
+61-->[:react-native-image-crop-picker] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-55
+62        </provider>
+63
+64        <activity
+64-->[:react-native-image-crop-picker] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-25:72
+65            android:name="com.yalantis.ucrop.UCropActivity"
+65-->[:react-native-image-crop-picker] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-60
+66            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+66-->[:react-native-image-crop-picker] C:\Users\shruthi reddy pingil\Desktop\s\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-69
+67
+68        <service
+68-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\1e292060bdeb43ca56fd47d27dccc8e9\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
+69            android:name="com.google.firebase.components.ComponentDiscoveryService"
+69-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\1e292060bdeb43ca56fd47d27dccc8e9\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:18:13-84
+70            android:directBootAware="true"
+70-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\06079f78d3c9c788c6b5e118f1bd2f7c\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+71            android:exported="false" >
+71-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\1e292060bdeb43ca56fd47d27dccc8e9\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:19:13-37
+72            <meta-data
+72-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\1e292060bdeb43ca56fd47d27dccc8e9\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+73                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+73-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\1e292060bdeb43ca56fd47d27dccc8e9\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\1e292060bdeb43ca56fd47d27dccc8e9\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\8f508121b883280b0ac2c47d18644d1d\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+76                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+76-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\8f508121b883280b0ac2c47d18644d1d\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\8f508121b883280b0ac2c47d18644d1d\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\3d8877a306897218f5f9f7c9f78a6bb0\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+79                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+79-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\3d8877a306897218f5f9f7c9f78a6bb0\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\3d8877a306897218f5f9f7c9f78a6bb0\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+81            <meta-data
+81-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\790eb1a32ea2f383cd95d0c0d8deb6fe\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+82                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+82-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\790eb1a32ea2f383cd95d0c0d8deb6fe\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\790eb1a32ea2f383cd95d0c0d8deb6fe\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+85                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+85-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+87        </service>
+88
+89        <activity
+89-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+90            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+90-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+91            android:excludeFromRecents="true"
+91-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+94        <!--
+95            Service handling Google Sign-In user revocation. For apps that do not integrate with
+96            Google Sign-In, this service will never be started.
+97        -->
+98        <service
+98-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+99            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+99-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+100            android:exported="true"
+100-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+101            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+101-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+102
+103        <activity
+103-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\8f508121b883280b0ac2c47d18644d1d\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+104            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+104-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\8f508121b883280b0ac2c47d18644d1d\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+105            android:excludeFromRecents="true"
+105-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\8f508121b883280b0ac2c47d18644d1d\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+106            android:exported="true"
+106-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\8f508121b883280b0ac2c47d18644d1d\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+107            android:launchMode="singleTask"
+107-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\8f508121b883280b0ac2c47d18644d1d\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+108            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+108-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\8f508121b883280b0ac2c47d18644d1d\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\8f508121b883280b0ac2c47d18644d1d\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+110
+111        <receiver
+111-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+112            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+112-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+113            android:exported="true"
+113-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+114            android:permission="com.google.android.c2dm.permission.SEND" >
+114-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+115            <intent-filter>
+115-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+116                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+116-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+116-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2ffa4758a176f7e948a148f8dc1bb5ab\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+117            </intent-filter>
+118        </receiver>
+119
+120        <activity
+120-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+121            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+121-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+124
+125        <provider
+125-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\06079f78d3c9c788c6b5e118f1bd2f7c\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+126            android:name="com.google.firebase.provider.FirebaseInitProvider"
+126-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\06079f78d3c9c788c6b5e118f1bd2f7c\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+127            android:authorities="com.sweetlifecake.firebaseinitprovider"
+127-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\06079f78d3c9c788c6b5e118f1bd2f7c\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+128            android:exported="false"
+128-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\06079f78d3c9c788c6b5e118f1bd2f7c\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+129            android:initOrder="100" />
+129-->[com.google.firebase:firebase-common:19.3.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\06079f78d3c9c788c6b5e118f1bd2f7c\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+130
+131        <receiver
+131-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+132            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+132-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+133            android:enabled="true"
+133-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+134            android:exported="false" >
+134-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+135        </receiver>
+136        <receiver
+136-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+137            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+137-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+138            android:enabled="true"
+138-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+139            android:exported="true"
+139-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+140            android:permission="android.permission.INSTALL_PACKAGES" >
+140-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+141            <intent-filter>
+141-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+142                <action android:name="com.android.vending.INSTALL_REFERRER" />
+142-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+142-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+143            </intent-filter>
+144        </receiver>
+145
+146        <service
+146-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+147            android:name="com.google.android.gms.measurement.AppMeasurementService"
+147-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+149            android:exported="false" />
+149-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+150        <service
+150-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+151            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+151-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+152            android:enabled="true"
+152-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+154            android:permission="android.permission.BIND_JOB_SERVICE" />
+154-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\bce72fc9e10841514928de9da8513344\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+155
+156        <meta-data
+156-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\83903e8c9c428d326a5066a6f6f28b11\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+157            android:name="com.google.android.gms.version"
+157-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\83903e8c9c428d326a5066a6f6f28b11\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shruthi reddy pingil\.gradle\caches\transforms-2\files-2.1\83903e8c9c428d326a5066a6f6f28b11\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+159    </application>
+160
+161</manifest>
