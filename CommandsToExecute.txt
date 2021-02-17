@@ -1,0 +1,13 @@
+Commands in Order:
+1.npm install  --->command to install node_modules
+(shift+rigtclick and choose "open powerrshell window here")
+2.npx react-native run-android or start the android emulator from your device and then,
+3.npx react-native start
+4.For user-side: signup with any email and explore the app.
+5.For Admin-side: In firebase, i need to allot the permssions to the particular user, please do contact me in that case, Otherwise.
+    To check-out the admin side, use these credentials:
+      Email: shruthi.reddy@gmail.com
+      Password: secret
+    Then you will be able to see the admin tab on the menu after you login.
+6.In Admin, "isBest" attribute is used for differentiating the best selling cakes, and general cakes. If you want to move that product to the dashboard, then check that tab.
+7.In Admin, "isActive" attribute is used to differentiate the cakes to be displayed or not.
