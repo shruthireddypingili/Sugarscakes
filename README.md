@@ -11,4 +11,3 @@ Commands in Order:
 
 4.For user-side: signup with any email and explore the app.
 
-5.For Admin-side: In firebase, i need to allot the permssions to the particular user, please do contact me in that case, Otherwise.
