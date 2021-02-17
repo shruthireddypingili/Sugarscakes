@@ -1,0 +1,20 @@
+{
+  "Text.bestSellingCakeTitle" : "Best Selling Cakes",
+  "Text.AboutUs" : "About us",
+  "settings.title": "Settings",
+  "settings.change_language": "Select a language",
+  "AboutUs.firstPara": "1. We design edible art to your liking \uD83C\uDF82 Training Workshops",
+  "AboutUs.secondPara": "2. Our store is online and is located in Venezuela.",
+  "AboutUs.thirdPara": "3. We have training sessions available for people in fondant preparation and meringue decorations",
+  "AboutUs.fourPara": "4. In addition to cakes, we also sell decoration items.",
+  "Category.NoItem": "No category found.",
+  "DecorGallery.Title": "Decor Gallery",
+  "Feedback.ThankYou": "Thank you for your valuable feedback!!!",
+  "Feedback.GoBack": "Go Back",
+  "Item.NoFound": "No item found.",
+  "Shopping.Continue": "Continue shopping",
+  "Text.AddToCart": "Add To Cart",
+  "Text.CommentAndRating": "Comments and Ratings",
+  "Text.TypeYourComment": "Type  your  Comments...",
+  "Text.Description": "Description"
+}

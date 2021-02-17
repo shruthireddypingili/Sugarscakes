@@ -1,0 +1,20 @@
+{
+  "Text.bestSellingCakeTitle" : "Tortas superventas",
+  "Text.AboutUs" : "Sobre nosotras",
+  "settings.title": "Ajustes",
+  "settings.change_language": "Selecciona un idioma",
+  "AboutUs.firstPara": "1. Diseñamos Arte Comestible a tu Gusto \uD83C\uDF82 Talleres de Capacitación.",
+  "AboutUs.secondPara": "2. Nuestra tienda está en línea y se encuentra en Venezuela.",
+  "AboutUs.thirdPara": "3. Tenemos sesiones de capacitación disponibles para personas en preparación de fondant y decoraciones con merengue",
+  "AboutUs.fourPara": "4. Además de pasteles, también vendemos artículos de decoración.",
+  "Category.NoItem": "No se ha encontrado ninguna categoría.",
+  "DecorGallery.Title": "Galería de decoración",
+  "Feedback.ThankYou": "Gracias por sus valiosos comentarios.",
+  "Feedback.GoBack": "Regresa",
+  "Item.NoFound": "No se ha encontrado ningún artículo.",
+  "Shopping.Continue": "Seguir comprando",
+  "Text.AddToCart": "Añadir al carrito",
+  "Text.CommentAndRating": "Comentarios y calificaciones",
+  "Text.TypeYourComment": "Escriba sus comentarios...",
+  "Text.Description": "Descripción"
+}
